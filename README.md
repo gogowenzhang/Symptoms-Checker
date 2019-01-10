@@ -10,7 +10,7 @@ I have been thinking about creating a symptom checker application for a while. A
 
 #### Steps:
 
-1. Retrieves symptom information of 11 different diseases from https://www.mayoclinic.org/. I purposely selected diseases form three categories: cancers, cardiovascular diseases, and neurological diseases. 
+1. Retrieves symptom information of 11 different diseases from https://www.mayoclinic.org/. I purposely selected diseases from three categories: cancers, cardiovascular diseases, and neurological diseases. 
 List of the urls of these diseases can be found [here](https://github.com/gogowenzhang/Symptoms-Checker/blob/master/src/main/resources/urls.csv). 
 
 Example: symptoms of breast cancer
@@ -22,7 +22,7 @@ Example: symptoms of breast cancer
 > Redness or pitting of the skin over your breast, like the skin of an orange
 
 2. Preprocessing:
-  * Tokenize: to split sentence into array of words. 
+  * Tokenize: to split sentence into array of words. Lowercase words except for acronyms.
   
   * Lemmatize: to convert the word into the base or dictionary form. Uses the [WordNet](https://wordnet.princeton.edu/) dictionary. 
   
@@ -32,8 +32,7 @@ Example: symptoms of breast cancer
     Based on source:  https://en.wikipedia.org/wiki/Feature_hashing   
     Hashing function: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()
 
-3. Modeling:   
- Implemented a simple K-Means Clutersing model. Applied tail recursion to iterate the reassignment of labels and recalculating centroids. 
+3. Modeling: Implemented a simple K-Means Clutersing model. Applied tail recursion to iterate reassignment of labels and recalculating centroids. 
 
 
 #### Results: 
@@ -55,7 +54,7 @@ Example: symptoms of breast cancer
 #### Error Analysis:
 There are two diseases have been mistakenly clustered: lung cancer and epilepsy. 
 
-Symptoms of lung cancer involves shortness of breath and chest pain, which are very common signs of cardiology problems. While its distinguishable symptoms like coughing and coughing in blood will not help to be categoried into cancer group. 
+Symptoms of lung cancer involves shortness of breath and chest pain, which are very common signs of cardiology problems. While its distinguishable symptoms like coughing and coughing in blood will not help it to be categoried into cancer group. 
 
 For epilepsy, not enough neurological signals like headache, vomiting or nausea shown in its symptom description. 
 
