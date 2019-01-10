@@ -13,9 +13,11 @@ I have been thinking about creating a symptom checker application for a while. A
 1. Retrieves symptom information of 11 different diseases from https://www.mayoclinic.org/. I particularly selected diseases form three categories: cancers, cardiovascular diseases, and neurological diseases. 
 List of the urls of these diseases can be found [here](https://github.com/gogowenzhang/Symptoms-Checker/blob/master/src/main/resources/urls.csv). 
 
-```Sample result of brease cancer: 
+Example: symptoms of breast cancer
+```
 * A breast lump or thickening that feels different from the surrounding tissue
-* Change in the size, shape or appearance of a breast/n Changes to the skin over the breast, such as dimpling
+* Change in the size, shape or appearance of a breast
+* Changes to the skin over the breast, such as dimpling
 * A newly inverted nipple
 * Peeling, scaling, crusting or flaking of the pigmented area of skin surrounding the nipple (areola) or breast skin
 * Redness or pitting of the skin over your breast, like the skin of an orange
