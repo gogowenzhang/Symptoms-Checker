@@ -21,7 +21,7 @@ List of the urls of these diseases can be found [here](https://github.com/gogowe
   * Remove stop words: to remove stop words using NLTK's list. The list can be found [here](https://github.com/gogowenzhang/Symptoms-Checker/blob/master/src/main/resources/english.txt)
   
   * Vectorize: to maps a sequence of words to their term frequencies using the hashing trick.  
-    Based on source:  https://en.wikipedia.org/wiki/Feature_hashing
+    Based on source:  https://en.wikipedia.org/wiki/Feature_hashing   
     Hashing function: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()
 
 3. Modeling:
