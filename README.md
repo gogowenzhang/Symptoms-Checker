@@ -33,7 +33,7 @@ Example: symptoms of breast cancer
     Hashing function: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()
 
 3. Modeling:   
- Implemented a simple K-Means Clutersing model. Applied tail recursion to iterate the reassignment of labels and recalculating centroids. 
+ Implemented a simple K-Means Clutersing model. Applied tail recursion to iterate reassignment of labels and recalculating centroids. 
 
 
 #### Results: 
