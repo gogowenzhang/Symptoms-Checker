@@ -2,4 +2,4 @@
 .gitignore 
 *.md 
 
-resources/
+resources/*
