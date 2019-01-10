@@ -29,5 +29,17 @@ List of the urls of these diseases can be found [here](https://github.com/gogowe
 
 
 #### Results: 
-
+| Disease                         | Category          | Cluster Label  |
+| ------------------------------- |:-----------------:|:--------------:| 
+| breast-cancer                   | cancer            | 2              |
+| colon-cancer                    | cancer            | 2              |
+| rectal-cancer                   | cancer            | 2              |
+| lung-cancer                     | cancer            | 0              |
+| adult-congenital-heart-disease  | cardiovascular    | 0              |
+| heart-arrhythmia                | cardiovascular    | 0              |
+| hypertrophic-cardiomyopathy     | cardiovascular    | 0              |
+| brain-aneurysm                  | neurology         | 1              |
+| glioma                          | neurology         | 1              |
+| epilepsy                        | neurology         | 2              |
+| dural-arteriovenous-fistulas    | neurology         | 1              |
 
