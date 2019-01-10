@@ -57,7 +57,7 @@ There are two diseases have been mistakenly clustered: lung cancer and epilepsy.
 
 Symptoms of lung cancer involves shortness of breath and chest pain, which are very common signs of cardiology problems. While its distinguishable symptoms like coughing and coughing in blood will not help to be categoried into cancer group. 
 
-For epilepsy, not enough neurological signals like headache, vomiting or nausea shown in its symptom decription. 
+For epilepsy, not enough neurological signals like headache, vomiting or nausea shown in its symptom description. 
 
 Due to very small sample size here, all the errors can be random. 
 
