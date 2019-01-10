@@ -32,7 +32,8 @@ Example: symptoms of breast cancer
     Based on source:  https://en.wikipedia.org/wiki/Feature_hashing   
     Hashing function: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()
 
-3. Modeling:   
+3. Modeling:     
+
  Implemented a simple K-Means Clutersing model. Applied tail recursion to iterate reassignment of labels and recalculating centroids. 
 
 
