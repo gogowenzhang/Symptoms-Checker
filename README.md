@@ -51,3 +51,14 @@ Example: symptoms of breast cancer
 | epilepsy                        | neurology         | 2              |
 | dural-arteriovenous-fistulas    | neurology         | 1              |
 
+
+#### Error Analysis:
+There are two diseases have been wrongly clustered: lung cancer and epilepsy. 
+
+Symptoms of lung cancer involves shortness of breath and chest pain, which are very common signs of cardiology problems. While its distinguishable symptoms like coughing and coughing in blood will not help to be categoried into cancer group. So this error is not due to the model. 
+
+
+
+
+
+
