@@ -10,7 +10,7 @@ I have been thinking about creating a symptom checker application for a while. A
 
 #### Steps:
 
-1. Retrieves symptom information of 11 different diseases from https://www.mayoclinic.org/. I purposely selected diseases form three categories: cancers, cardiovascular diseases, and neurological diseases. 
+1. Retrieves symptom information of 11 different diseases from https://www.mayoclinic.org/. I purposely selected diseases from three categories: cancers, cardiovascular diseases, and neurological diseases. 
 List of the urls of these diseases can be found [here](https://github.com/gogowenzhang/Symptoms-Checker/blob/master/src/main/resources/urls.csv). 
 
 Example: symptoms of breast cancer
