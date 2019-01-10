@@ -24,8 +24,8 @@ List of the urls of these diseases can be found [here](https://github.com/gogowe
     Based on source:  https://en.wikipedia.org/wiki/Feature_hashing   
     Hashing function: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()
 
-3. Modeling:
-
+3. Modeling:   
+ Implemented a simple K-Means Clutersing model. Applied tail recursion to iterate the assignment of new labels and calculating new centroids. 
 
 
 #### Results: 
