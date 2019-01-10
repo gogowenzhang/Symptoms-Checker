@@ -6,7 +6,7 @@ Author: Wen Zhang
 
 #### Summary: 
 
-I have been thinking about creating a symptom checker application for a while. And this task happens to be aligned with my motivation. So I come up with this project which is to cluster diesease symptom information into different groups. The project will focus on online info retrieving, text preprocessing and a simple K Means modeling. The result of this project could provide insight for future disease classfication based on symptoms. 
+I have been thinking about creating a symptom checker application for a while. And this task happens to be aligned with my motivation. So I come up with this project which is to cluster diesease symptom information into different groups. The project will focus on online info retrieving, text preprocessing and a simple K Means modeling. The result of this project could provide insight for future disease classfication problems. 
 
 #### Steps:
 
@@ -14,12 +14,18 @@ I have been thinking about creating a symptom checker application for a while. A
 List of the urls of these diseases can be found [here](https://github.com/gogowenzhang/Symptoms-Checker/blob/master/src/main/resources/urls.csv). 
 
 2. Preprocessing:
-  * Tokenize: 
-  * Lemmatize:
-  * Remove stop words:
-  * Vectorize:
+  * Tokenize: to split sentence into array of words. 
+  
+  * Lemmatize: to convert the word into the base or dictionary form. Uses the [WordNet](https://wordnet.princeton.edu/) dictionary. 
+  
+  * Remove stop words: to remove stop words using NLTK's list. The list can be found [here](https://github.com/gogowenzhang/Symptoms-Checker/blob/master/src/main/resources/english.txt)
+  
+  * Vectorize: to maps a sequence of words to their term frequencies using the hashing trick.  
+    Based on source:  https://en.wikipedia.org/wiki/Feature_hashing
+    Hashing function: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()
 
 3. Modeling:
+
 
 
 #### Results: 
