@@ -64,7 +64,7 @@ Due to very small sample size here, all the errors can be random.
 
 #### TODO
 * For preprocessing, try n-grams. 
-* Generalize the code for more common nlp problems. 
+* Generalize the code for more common NLP problems. 
 
 
 
