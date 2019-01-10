@@ -22,7 +22,7 @@ Example: symptoms of breast cancer
 > Redness or pitting of the skin over your breast, like the skin of an orange
 
 2. Preprocessing:
-  * Tokenize: to split sentence into array of words. 
+  * Tokenize: to split sentence into array of words. Lowercase words except for acronyms.
   
   * Lemmatize: to convert the word into the base or dictionary form. Uses the [WordNet](https://wordnet.princeton.edu/) dictionary. 
   
