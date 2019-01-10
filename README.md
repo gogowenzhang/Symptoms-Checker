@@ -10,10 +10,10 @@
 List of the urls of these diseases can be found [here](https://github.com/gogowenzhang/Symptoms-Checker/blob/master/src/main/resources/urls.csv). 
 
 2. Preprocessing:
-⋅⋅* Tokenize: 
-⋅⋅* Lemmatize:
-⋅⋅* Remove stop words:
-⋅⋅* Vectorize:
+  * Tokenize: 
+  * Lemmatize:
+  * Remove stop words:
+  * Vectorize:
 
 3. Modeling:
 
