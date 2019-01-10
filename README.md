@@ -6,7 +6,7 @@ Author: Wen Zhang
 
 #### Summary: 
 
-I have been thinking about creating a symptom checker application for a while. And this task happens to be aligned with my thought. So I come up with this project which is to cluster the symptom information into different groups. The project will focus on online info retrieving, text preprocessing and a simple K Means modeling. The result of this project could provide insight for future disease classfication based on symptoms. 
+I have been thinking about creating a symptom checker application for a while. And this task happens to be aligned with my motivation. So I come up with this project which is to cluster the symptom information into different groups. The project will focus on online info retrieving, text preprocessing and a simple K Means modeling. The result of this project could provide insight for future disease classfication based on symptoms. 
 
 #### Steps:
 
