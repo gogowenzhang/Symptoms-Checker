@@ -2,4 +2,4 @@
 .gitignore 
 *.md 
 
-resources/*. linguist-vendored=false
+resources/ linguist-vendored=false
