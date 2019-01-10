@@ -22,13 +22,15 @@ object main extends App {
 
   val terms_list = lemmas_sw.map(_.flatten)
 
-  val hf = new HashingTF
-  val vectors = terms_list.map(x => hf.HashingTF(x, 1000))
+  terms_list.foreach(println)
 
-  val km = new KMeans
-  val labels = km.train(vectors, 3, 500)
+//  val hf = new HashingTF
+//  val vectors = terms_list.map(x => hf.HashingTF(x, 5000))
 
-  println(labels)
+//  val km = new KMeans
+//  val labels = km.train(vectors, 3, 500)
+//
+//  println(labels)
 }
 
 

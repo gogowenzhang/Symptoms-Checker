@@ -41,7 +41,7 @@ class KMeans {
     def loop(labels: List[Int], centroids: List[Array[Double]], iter: Int): List[Int] = {
       println(labels, iter)
       if (iter > MaxIterations) labels
-      else if (centroids == UpdateCentroids(data, UpdateLabels(data, centroids))) labels
+      else if (UpdateLabels(data, centroids) == labels) labels
       else loop(UpdateLabels(data, centroids), UpdateCentroids(data, UpdateLabels(data, centroids)) , iter+1)
     }
 
