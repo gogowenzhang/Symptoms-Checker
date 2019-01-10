@@ -1,3 +1,5 @@
-*.gitattributes text
-.gitignore text
-*.md text
+*.gitattributes 
+.gitignore 
+*.md 
+
+resources/
