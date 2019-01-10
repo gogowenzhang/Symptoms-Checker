@@ -5,7 +5,7 @@ class HashingTF {
     * Uses java.String.hashCode to calculate the hash code value for the term object.
     */
 
-  def HashingTF(words: Seq[String], numFeatures: Int): Array[Double] = {
+  def HashingTF(words: Seq[String], numFeatures: Int): List[Double] = {
     // Initiate an array with zeros
     val SparseVector = Array.fill[Double](numFeatures)(0.0)
 
@@ -17,7 +17,7 @@ class HashingTF {
     // Count the frequencies
     for (feature <- features) SparseVector(feature) += 1.0
 
-    SparseVector
+    SparseVector.toList
   }
 
 }
