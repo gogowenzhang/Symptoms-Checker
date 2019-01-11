@@ -54,7 +54,7 @@ Example: symptoms of breast cancer
 #### Error Analysis:
 There are two diseases have been mistakenly clustered: lung cancer and epilepsy. 
 
-Some symptoms of lung cancer like shortness of breath and chest pai are also common signs of cardiology problems. While lung cancer's distinguishable symptoms like coughing and coughing in blood are not very common in other kinds of cancers. 
+Some symptoms of lung cancer like shortness of breath and chest pain are also common signs of cardiology problems. While lung cancer's distinguishable symptoms like coughing and coughing in blood are not very common in other kinds of cancers. 
 
 For epilepsy, not enough neurological signals like headache, vomiting or nausea shown in its symptom description. 
 
