@@ -18,7 +18,7 @@ class Tokenizer {
     */
   def tokenize(sentence: String): Array[String] = {
     val words = sentence.trim.split("\\s+")
-    val tokens = words.map(_.replaceAll("[(),]", "").trim())
+    val tokens = words.map(_.replaceAll("[(),!.]", "").trim())
     tokens.map(myLowerCase)
   }
 }
