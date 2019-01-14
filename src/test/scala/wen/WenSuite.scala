@@ -35,11 +35,5 @@ class WenSuite extends FunSuite{
     assert(hf.HashingTF(Seq("a", "b"), 3) == List(0.0, 1.0, 1.0))
   }
 
-  test("HashingTF") {
-    val hf = new HashingTF
-    assert(hf.HashingTF(Seq("a", "b"), 2) == List(1.0, 1.0))
-    assert(hf.HashingTF(Seq("a", "b"), 3) == List(0.0, 1.0, 1.0))
-  }
-
 }
 
