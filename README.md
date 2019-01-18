@@ -1,7 +1,5 @@
 # Symptoms-Checker
 
-#### For Apixio coding challenge:
-
 Author: Wen Zhang
 
 #### Summary: 
